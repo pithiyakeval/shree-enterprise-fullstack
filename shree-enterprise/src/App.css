@@ -1,0 +1,42 @@
+/* Prevent horizontal scroll and overflow */
+body, html {
+  overflow-x: hidden;
+}
+
+
+
+
+
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Theme */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAFAFA;
+  color: #333333;
+}
+
+a {
+  color: #FFAB91;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: #B2DFDB;
+  color: #333333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #80CBC4;
+}

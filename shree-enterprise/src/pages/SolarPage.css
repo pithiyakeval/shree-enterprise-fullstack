@@ -1,0 +1,172 @@
+/* Base styles */
+body, html {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Hero Section */
+.solar-hero {
+  background: linear-gradient(to right, #facc15, #f97316);
+  color: #1f2937;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.solar-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.solar-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Benefits, Services, Products Lists */
+.benefits-list,
+.service-list,
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-list li,
+.service-list li,
+.product-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.benefits-list li:hover,
+.service-list li:hover,
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Product Section */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Installation Steps */
+.install-steps {
+  padding: 0;
+  list-style: decimal inside;
+}
+
+.install-steps li {
+  background: #fff;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #f97316;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+}
+
+/* Brands */
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.brand-list li {
+  background: #e5e7eb;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+/* Gallery */
+.solar-gallery .gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.solar-gallery img {
+  width: 300px;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s;
+}
+
+.solar-gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* FAQ */
+.faq-container details {
+  background: #fff;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  cursor: pointer;
+}
+
+/* Quote */
+.solar-quote {
+  background: #fff7ed;
+  padding: 2rem;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
+
+/* Call to Action */
+.solar-cta {
+  background: #10b981;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 1.25rem;
+  margin-top: 3rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.solar-cta h2 {
+  margin-bottom: 1rem;
+}

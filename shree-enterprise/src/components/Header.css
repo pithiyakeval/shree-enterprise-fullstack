@@ -1,0 +1,81 @@
+:root {
+  --navy-blue: #0A2342;
+  --golden-yellow: #F4B41A;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+}
+
+/* Main header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: var(--navy-blue);
+  color: var(--white);
+  position: relative;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Logo section */
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.logo-img {
+  height: 50px;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--golden-yellow); /* Add this line */
+}
+
+
+
+/* Hamburger icon (mobile) */
+.hamburger-icon {
+  font-size: 28px;
+  cursor: pointer;
+  color: var(--golden-yellow);
+}
+
+/* Hamburger dropdown menu */
+.hamburger-menu {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: var(--navy-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  z-index: 999;
+  border-top: 2px solid var(--golden-yellow);
+}
+
+/* Navigation link styles */
+.nav-link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--golden-yellow);
+  transform: translateX(5px);
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: var(--golden-yellow);
+  border-left: 4px solid var(--golden-yellow);
+  padding-left: 10px;
+}

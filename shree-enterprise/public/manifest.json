@@ -1,0 +1,19 @@
+{
+  "short_name": "Shree Enterprise",
+  "name": "Shree Enterprise - Solar & Tent Services",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+    
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffcc00",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/",
+  "description": "Shree Enterprise provides professional solar panel installations and mandap decoration services across Gujarat."
+}

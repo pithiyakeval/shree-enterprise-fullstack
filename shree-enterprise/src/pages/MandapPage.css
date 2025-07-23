@@ -1,0 +1,153 @@
+/* src/pages/MandapPage.css */
+
+.mandap-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #2d2d2d;
+  background-color: #fffdf8;
+  padding-bottom: 3rem;
+}
+
+.mandap-hero {
+  background: linear-gradient(to right, #6e0e0a, #a52a2a);
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.mandap-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.mandap-hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #ffcc00;
+  color: #2d2d2d;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #e6b800;
+}
+
+.mandap-services,
+.mandap-speciality,
+.mandap-gallery,
+.mandap-cta {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mandap-services h2,
+.mandap-speciality h2,
+.mandap-gallery h2,
+.mandap-cta h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #6e0e0a;
+}
+
+.mandap-services ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.mandap-services ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.mandap-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: #fff3e0;
+  padding: 2rem;
+  border-radius: 12px;
+  flex: 1 1 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  color: #a52a2a;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.gallery-images img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.mandap-cta {
+  background-color: #fff3e0;
+  text-align: center;
+  border-top: 2px solid #ffcc00;
+}
+
+.mandap-video {
+  padding: 4rem 2rem;
+  background-color: #fff8f2;
+}
+
+.video-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.video-wrapper {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.video-text {
+  flex: 1 1 45%;
+  min-width: 280px;
+}
+
+.mandap-intro-video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.video-text h2 {
+  font-size: 2rem;
+  color: #6e0e0a;
+  margin-bottom: 1rem;
+}
+
+.video-text p {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.6;
+}
