@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import AboutPage from "./pages/AboutPage";
 
+
 import Home from './pages/Home';
 import ServicesPage from './pages/ServicesPage';
 import Solar from './pages/Solar';
